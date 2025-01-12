@@ -16,6 +16,7 @@ import { handleStandardServerErrors } from 'shared/handleStandardServerErrors';
 import { useAppDispatch } from 'shared/hooks/useAppDispatch';
 import { FormDevTool } from 'shared/reactHookForm/FromDevTool';
 import { schemeErrorDTO } from 'shared/typesAndSchemes';
+import { openAlert } from 'store/toastSlice';
 import { UserFormValue, validationUserScheme } from './typesAndSchemas';
 import { UserCompanyInput } from './UserCompanyInput';
 import { UserEmailInput } from './UserEmailInput';
@@ -50,6 +51,12 @@ export const UpdateUserContent: FC<Props> = ({ currentUser, onClose }) => {
   const addUserMutation = useAddUser({
     onSuccess: () => {
       onClose();
+      dispatch(
+        openAlert({
+          alertType: 'success',
+          message: 'Пользователь добавлен',
+        }),
+      );
     },
     onError: (error) =>
       handleError422({
@@ -83,6 +90,12 @@ export const UpdateUserContent: FC<Props> = ({ currentUser, onClose }) => {
   const updateUserMutation = useUpdateUser({
     onSuccess: () => {
       onClose();
+      dispatch(
+        openAlert({
+          alertType: 'success',
+          message: 'Данные изменены',
+        }),
+      );
     },
     onError: (error) =>
       handleError422({

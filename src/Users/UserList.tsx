@@ -47,6 +47,14 @@ export const UserList: FC = () => {
 
   const dispatch = useAppDispatch();
   const deleteUserMutation = useDeleteUser({
+    onSuccess: () => {
+      dispatch(
+        openAlert({
+          alertType: 'info',
+          message: 'Пользователь удален',
+        }),
+      );
+    },
     onError: (error) =>
       handleError422({
         dispatch,
