@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "first_name": "Иван",
+    "last_name": "Петров",
+    "patronymic": "Иванович",
+    "company": "ООО На лыжах",
+    "email": "petrov@mail.ru",
+    "phone": "+73334445566"
+  },
+  {
+    "id": 2,
+    "first_name": "Иван",
+    "last_name": "Иванов",
+    "patronymic": "Петрович",
+    "company": "ООО Санки",
+    "email": "petrovic@mail.ru",
+    "phone": "+75554449900"
+  },
+  {
+    "id": 3,
+    "first_name": "Петр",
+    "last_name": "Сандалов",
+    "patronymic": "Сидорович",
+    "company": "ООО Бумага",
+    "email": "sandal@yandex.ru",
+    "phone": "+75551111100"
+  },
+  {
+    "id": 4,
+    "first_name": "Никодим",
+    "last_name": "Бугаев",
+    "patronymic": "Исидорович",
+    "company": "ООО Носки",
+    "email": "noski@yandex.ru",
+    "phone": "+79991112222"
+  },
+  {
+    "id": 5,
+    "first_name": "Андрей",
+    "last_name": "Торпедов",
+    "patronymic": "Никитич",
+    "company": "ООО Арсенал",
+    "email": "torpeda@mail.ru",
+    "phone": "+79990000000"
+  },
+  {
+    "id": 6,
+    "first_name": "Николай",
+    "last_name": "Зеленкин",
+    "patronymic": "Николаевич",
+    "company": "ООО Пирожки",
+    "email": "zelen@mail.ru",
+    "phone": "+79269262626"
+  },
+  {
+    "id": 7,
+    "first_name": "Ольга",
+    "last_name": "Матрешкина",
+    "patronymic": "Павловна",
+    "company": "ООО Кукушка",
+    "email": "kuku@mail.ru",
+    "phone": "+79001119000"
+  },
+  {
+    "id": 8,
+    "first_name": "Зинаида",
+    "last_name": "Пилюлькина",
+    "patronymic": "Федоровна",
+    "company": "ООО Серьга",
+    "email": "pilul@yandex.ru",
+    "phone": "+79663339099"
+  },
+  {
+    "id": 9,
+    "first_name": "Кирилл",
+    "last_name": "Бут",
+    "patronymic": "Сергеевич",
+    "company": "ООО Бут-Сервис",
+    "email": "but@yandex.ru",
+    "phone": "+79110007777"
+  }
+]
